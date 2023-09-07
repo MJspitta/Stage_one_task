@@ -1,0 +1,32 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 3rem;
+}
+
+#slackUserName {
+    margin-bottom: 2rem;
+}
+
+#slackDisplayImage {
+    width: 230px;
+    height: 300px;
+    margin-bottom: 2rem;
+}
+
+#currentDayOfTheWeek, #currentUTCTime {
+    margin-bottom: 1rem;
+    font-weight: 400;
+}
+
+#myTrack {
+    margin: 1rem 0;
+}
+
+#githubURL a {
+    color: firebrick;
+}
