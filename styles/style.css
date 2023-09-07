@@ -29,4 +29,5 @@ body {
 
 #githubURL a {
     color: firebrick;
+    font-weight: 400;
 }
