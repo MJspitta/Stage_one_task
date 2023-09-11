@@ -7,13 +7,13 @@
 
     <link rel="stylesheet" href="./styles/style.css">
 </head>
-<body>
-    <h1 id="slackUserName">Slack Username: Madu</h1>
-    <img src="./images/Profile_Picture.jpg" alt="Madu" id="slackDisplayImage">
-    <h3 id="currentDayOfTheWeek"></h3>
-    <h3 id="currentUTCTime"></h3>
-    <h3 id="myTrack">Track: Frontend</h3>
-    <h3 id="githubURL">GitHub URL: <a href="https://github.com/MJspitta/Stage_one_task.git">Frontend Page Creation with Specific Elements</a></h3>
+<body onload="curr_time()">
+    <h1 data-testid="slackUserName" id="slackUserName">Madu</h1>
+    <img src="./images/Profile_Picture.jpg" alt="Madu" data-testid="slackDisplayImage" id="slackDisplayImage">
+    <p data-testid="currentDayOfTheWeek" id="currentDayOfTheWeek"></p>
+    <p data-testid="currentUTCTime" id="currentUTCTime"></p>
+    <h3 data-testid="myTrack" id="myTrack">Frontend</h3>
+    <h3 data-testid="githubURL" id="githubURL"><a href="https://github.com/MJspitta/Stage_one_task.git">Frontend Page Creation with Specific Elements</a></h3>
     <script src="./js/script.js"></script>
 </body>
 </html>
